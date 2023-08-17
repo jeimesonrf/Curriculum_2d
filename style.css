@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Comfortaa, Monaco, sans-serif;
+    font-size: 16pt;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+#titulo {
+    display: flex;
+    justify-content: center;
+}
+
+#titulo h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.main {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#foto-idt {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+#foto-idt img {
+    width: 200px;
+}
